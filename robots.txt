@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /download/
+
+Sitemap: https://2wise.com.ng/sitemap.xml
