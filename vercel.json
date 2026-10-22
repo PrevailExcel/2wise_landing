@@ -1,0 +1,47 @@
+{
+  "redirects": [
+    {
+      "source": "/b/:path*",
+      "destination": "https://app.2wise.com.ng/b/:path*",
+      "statusCode": 301
+    },
+    {
+      "source": "/join/:path*",
+      "destination": "https://app.2wise.com.ng/join/:path*",
+      "statusCode": 301
+    }
+  ],
+  "headers": [
+    {
+      "source": "/download/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+    },
+    {
+      "source": "/download/(.*)\\.apk",
+      "headers": [{ "key": "Content-Type", "value": "application/vnd.android.package-archive" }]
+    },
+    {
+      "source": "/download/(.*)\\.exe",
+      "headers": [{ "key": "Content-Type", "value": "application/vnd.microsoft.portable-executable" }]
+    },
+    {
+      "source": "/download/(.*)\\.msi",
+      "headers": [{ "key": "Content-Type", "value": "application/x-msi" }]
+    },
+    {
+      "source": "/download/(.*)\\.AppImage",
+      "headers": [{ "key": "Content-Type", "value": "application/vnd.appimage" }]
+    },
+    {
+      "source": "/download/(.*)\\.deb",
+      "headers": [{ "key": "Content-Type", "value": "application/vnd.debian.binary-package" }]
+    },
+    {
+      "source": "/download/(.*)\\.json",
+      "headers": [{ "key": "Content-Type", "value": "application/json" }]
+    }
+  ],
+  "rewrites": [
+    { "source": "/download/:path*", "destination": "/download/index.html" }
+  ]
+}
