@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://2wise.com.ng/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://2wise.com.ng/how-to-score-300</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://2wise.com.ng/jamb-subjects</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://2wise.com.ng/blog</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://2wise.com.ng/about</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://2wise.com.ng/</loc><lastmod>2026-10-22</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://2wise.com.ng/download/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://2wise.com.ng/blog/</loc><lastmod>2026-10-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://2wise.com.ng/how-to-score-300/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://2wise.com.ng/jamb-subjects/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://2wise.com.ng/blog/jamb-2027-guide/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://2wise.com.ng/blog/how-jamb-is-scored/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://2wise.com.ng/blog/jamb-cut-off-marks/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://2wise.com.ng/blog/the-lekki-headmaster-jamb-guide/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://2wise.com.ng/blog/jamb-synonyms-antonyms/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://2wise.com.ng/blog/retake-jamb-score-higher/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://2wise.com.ng/blog/jamb-cbt-exam-day-tips/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

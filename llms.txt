@@ -1,0 +1,21 @@
+# 2Wise
+
+> 2Wise is a JAMB UTME preparation app for Nigerian candidates (Android, web). It runs full CBT mock exams scored out of 400, finds each student's weak topics and drills them, explains every answer, and works offline. 30 days free, then ₦1,000 for 12 months.
+
+## Product
+
+- [Home](https://2wise.com.ng/): what 2Wise does and pricing
+- [Download the Android app](https://2wise.com.ng/download/)
+- [Web app](https://app.2wise.com.ng)
+
+## JAMB guides
+
+- [How to score 300 in JAMB 2027](https://2wise.com.ng/how-to-score-300/): A realistic plan to reach 300 in the UTME: what 300 actually means per subject, how to find the marks you're losing, and a daily routine that works.
+- [JAMB subject combinations for popular courses](https://2wise.com.ng/jamb-subjects/): The usual UTME subject combinations for Medicine, Nursing, Engineering, Law, Accounting, Computer Science and more, and how to confirm yours before you register.
+- [JAMB 2027: everything you need to know](https://2wise.com.ng/blog/jamb-2027-guide/): What to expect from the 2027 UTME: the exam format, how to get your profile code, typical registration timing and fees (based on 2026), the set novel, and how to start preparing now.
+- [How is JAMB scored?](https://2wise.com.ng/blog/how-jamb-is-scored/): JAMB scores each of your four subjects out of 100 for a total of 400. Here's what each question is worth, whether wrong answers cost you, and what that means for your strategy.
+- [JAMB cut-off marks: what you really need](https://2wise.com.ng/blog/jamb-cut-off-marks/): JAMB's minimum cut-off for 2026 was 150 for universities and 100 for polytechnics. Here's why that isn't your real target, and how to work out the score you actually need.
+- [The Lekki Headmaster: how to study it for JAMB](https://2wise.com.ng/blog/the-lekki-headmaster-jamb-guide/): The Lekki Headmaster by Kabir Alabi Garba is the JAMB Use of English set novel. Here's what it's about, the kinds of questions JAMB asks, and a two-week plan to read it properly.
+- [JAMB synonyms and antonyms: stop losing easy marks](https://2wise.com.ng/blog/jamb-synonyms-antonyms/): "Nearest in meaning" and "opposite in meaning" questions are some of the most learnable marks in JAMB English. Here's how they work, the traps JAMB sets, and a 5-words-a-day method that sticks.
+- [Writing JAMB again? How to score much higher this time](https://2wise.com.ng/blog/retake-jamb-score-higher/): A low JAMB score usually comes from a few fixable causes, not a lack of brains. Here's how to find out what went wrong and build a plan that changes the result.
+- [JAMB CBT exam-day tips: timing, strategy and what to bring](https://2wise.com.ng/blog/jamb-cbt-exam-day-tips/): How to pace 180 questions in 2 hours, a two-pass strategy that protects your score, and the practical things to sort out before you get to the CBT centre.

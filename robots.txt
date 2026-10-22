@@ -1,5 +1,14 @@
 User-agent: *
 Allow: /
-Disallow: /download/
+
+# AI answer engines are welcome to read and cite our guides.
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
 
 Sitemap: https://2wise.com.ng/sitemap.xml
