@@ -5,7 +5,31 @@
       "version": "1.0.0",
       "size_mb": 15,
       "sha256": "d75c93069e258128733199c50fbd1dcf4f5cdce4a64b2f2a3e24961564837b7d"
+    },
+    "windows": {
+      "file": "2wise-setup.exe",
+      "version": "1.0.0",
+      "size_mb": 2.55,
+      "sha256": "30d00701752ee97cb137347608bcc2d1c85a049de4b5dd307210a53ba9413750"
+    },
+    "windows_msi": {
+      "file": "2wise.msi",
+      "version": "1.0.0",
+      "size_mb": 3.2,
+      "sha256": "b724d5ba6cda922c154dddd0503ece3a4841cc3dfbd3547a8eb28b3eeaeb9846"
+    },
+    "linux_deb": {
+      "file": "2wise.deb",
+      "version": "1.0.0",
+      "size_mb": 3.65,
+      "sha256": "d36bff07f91f02a8ef9b66e5caff18e3f7ffb97a391228800a8783f5cafbedb1"
+    },
+    "linux_appimage": {
+      "file": "2wise.AppImage",
+      "version": "1.0.0",
+      "size_mb": 78.5,
+      "sha256": "15870cce99fffccfc306762d9e8b6d64afc6a4549c3fe8122061d2a62778e749"
     }
   },
-  "updated": "2026-10-22T15:07:01Z"
+  "updated": "2026-10-23T09:41:00Z"
 }
