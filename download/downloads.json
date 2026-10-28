@@ -3,8 +3,8 @@
     "android": {
       "file": "2wise.apk",
       "version": "1.0.0",
-      "size_mb": 15,
-      "sha256": "d75c93069e258128733199c50fbd1dcf4f5cdce4a64b2f2a3e24961564837b7d"
+      "size_mb": 16,
+      "sha256": "1bb75a4e0a1b711cf2552e580e29461e28b566807acbd398182f09f94ff42196"
     },
     "windows": {
       "file": "2wise-setup.exe",
@@ -31,5 +31,5 @@
       "sha256": "15870cce99fffccfc306762d9e8b6d64afc6a4549c3fe8122061d2a62778e749"
     }
   },
-  "updated": "2026-10-23T09:41:00Z"
+  "updated": "2026-10-28T09:41:00Z"
 }
