@@ -22,6 +22,48 @@
     })
   }
 
+  // ── Ad visitors ───────────────────────────────────────────────────────
+  // Campaign tags (utm_*, fbclid) ride along to the app so sign-ups can be
+  // traced to the ad that brought them. Ad visitors, and anyone inside the
+  // Instagram/Facebook browser, keep the web sign-up buttons: an APK download
+  // inside those browsers usually fails or scares people off.
+  var CAMPAIGN_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'fbclid']
+  var camp = {}
+  try {
+    var qs = new URLSearchParams(location.search)
+    CAMPAIGN_KEYS.forEach(function (k) { if (qs.get(k)) camp[k] = qs.get(k) })
+    if (Object.keys(camp).length) sessionStorage.setItem('2wise.camp', JSON.stringify(camp))
+    else camp = JSON.parse(sessionStorage.getItem('2wise.camp') || '{}')
+  } catch (e) { camp = {} }
+  var inApp = /FBAN|FBAV|FB_IAB|FBIOS|Instagram/i.test(navigator.userAgent)
+  var fromAd = !!(camp.utm_source || camp.fbclid)
+  var keepWeb = inApp || fromAd
+
+  function tagAppLinks() {
+    if (!Object.keys(camp).length) return
+    document.querySelectorAll('a[href^="https://app.2wise.com.ng"]').forEach(function (a) {
+      var u = new URL(a.href)
+      Object.keys(camp).forEach(function (k) { u.searchParams.set(k, camp[k]) })
+      a.href = u.toString()
+    })
+  }
+  tagAppLinks()
+
+  if (inApp) document.querySelectorAll('.iab-note').forEach(function (el) { el.hidden = false })
+
+  // Sign-up clicks: one Lead for Meta, one event for Google Analytics.
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href]')
+    if (!a) return
+    var h = a.getAttribute('href') || ''
+    var isSignup = /app\.2wise\.com\.ng\/auth\?[^#]*mode=register/.test(h) || a.hasAttribute('data-get')
+    if (!isSignup) return
+    var where = a.closest('section, header, .launch-bar')
+    var label = (where && (where.id || where.className.split(' ')[0])) || 'page'
+    if (window.fbq) window.fbq('track', 'Lead', { content_name: label })
+    if (window.gtag) window.gtag('event', 'sign_up_click', { location: label })
+  })
+
   // ── Platforms ─────────────────────────────────────────────────────────
   // Every visitor gets one obvious button for the device they're on, and
   // every other platform one tap away. File names, versions and sizes come
@@ -53,7 +95,7 @@
   function fileOf(m, key) { var f = m && m.platforms && m.platforms[key]; return f && f.file ? f : null }
 
   function applyCtas(m) {
-    var hasApp = !me.web && fileOf(m, me.key)
+    var hasApp = !keepWeb && !me.web && fileOf(m, me.key)
     document.querySelectorAll('[data-get]').forEach(function (a) {
       var mode = a.getAttribute('data-get') // long | short | keep
       var lbl = a.querySelector('.lbl')

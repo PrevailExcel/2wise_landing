@@ -493,3 +493,26 @@ code { font: 600 13px ui-monospace, Menlo, Consolas, monospace; background: var(
 }
 .hero-note span { align-items: flex-start; }
 .hero-note .i { margin-top: 3px; }
+
+/* ── Launch offer (toggle with <html data-launch="on|off">) ──────────── */
+html:not([data-launch="on"]) .launch-only { display: none !important; }
+html[data-launch="on"] .std-only { display: none !important; }
+.launch-bar { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 6px 12px; padding: 9px 16px; background: var(--navy); color: #fff; text-decoration: none; font-size: 14.5px; line-height: 1.35; text-align: center; }
+.launch-bar s { color: rgba(255,255,255,.55); }
+.launch-bar b { color: var(--gold); font-weight: 800; }
+.lb-tag { background: var(--gold); color: #3A2400; font: 700 11.5px var(--display); padding: 3px 10px; border-radius: 99px; text-transform: uppercase; letter-spacing: .04em; }
+.lb-go { display: inline-flex; align-items: center; gap: 5px; color: var(--green); font-weight: 700; }
+.lb-go .i { width: 14px; height: 14px; }
+.launch-bar:hover .lb-go { text-decoration: underline; }
+.was { color: var(--muted); font-weight: 600; font-size: .62em; text-decoration-thickness: 2px; margin-right: 4px; }
+.price.best .was { color: rgba(255,255,255,.5); }
+.compare .was { font-size: 13px; }
+.cell-note { display: block; font: 600 11.5px var(--body); color: var(--green-dark); }
+.hero .lead b { color: var(--navy); }
+.hero-note .i { width: 16px; height: 16px; }
+.iab-note { margin-top: 12px; font-size: 13.5px; line-height: 1.5; color: var(--muted); background: var(--gold-soft); border-radius: 12px; padding: 10px 14px; max-width: 520px; }
+.iab-note b { color: var(--navy); }
+@media (max-width: 720px) {
+  .launch-bar { font-size: 13.5px; padding: 8px 12px; }
+  .hero-note { flex-direction: column; gap: 6px; }
+}
