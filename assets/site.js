@@ -51,12 +51,20 @@
 
   if (inApp) document.querySelectorAll('.iab-note').forEach(function (el) { el.hidden = false })
 
-  // Sign-up clicks: one Lead for Meta, one event for Google Analytics.
+  // Sign-up and download clicks: one Lead for Meta, one event for Google Analytics.
   document.addEventListener('click', function (e) {
     var a = e.target.closest && e.target.closest('a[href]')
     if (!a) return
     var h = a.getAttribute('href') || ''
-    var isSignup = /app\.2wise\.com\.ng\/auth\?[^#]*mode=register/.test(h) || a.hasAttribute('data-get')
+    // A real installer download (.apk, .exe, .deb, .AppImage) from the download page.
+    var dl = h.match(/^\/download\/[^?#]+\.(apk|exe|msi|deb|AppImage)(\?|$)/i)
+    if (dl) {
+      var kind = { apk: 'android', exe: 'windows', msi: 'windows', deb: 'linux', appimage: 'linux' }[dl[1].toLowerCase()]
+      if (window.fbq) window.fbq('track', 'Lead', { content_name: 'download_' + kind })
+      if (window.gtag) window.gtag('event', 'file_download_app', { platform: kind })
+      return
+    }
+    var isSignup = /app\.2wise\.com\.ng\/auth\?[^#]*mode=register/.test(h) || a.hasAttribute('data-get') || a.id === 'dl-mine-btn'
     if (!isSignup) return
     var where = a.closest('section, header, .launch-bar')
     var label = (where && (where.id || where.className.split(' ')[0])) || 'page'
