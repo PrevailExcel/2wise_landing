@@ -516,3 +516,9 @@ html[data-launch="on"] .std-only { display: none !important; }
   .launch-bar { font-size: 13.5px; padding: 8px 12px; }
   .hero-note { flex-direction: column; gap: 6px; }
 }
+/* Blog photos */
+.card-img { width: 100%; height: 150px; object-fit: cover; display: block; background: #E9E4D8; }
+.post-hero { margin: 0 0 28px; border-radius: 18px; overflow: hidden; background: #E9E4D8; aspect-ratio: 1200 / 670; }
+.post-hero img { width: 100%; height: 100%; object-fit: cover; }
+.cards:has(.card-img) .card-art { height: 150px; }
+@media (max-width: 700px) { .card-img, .cards:has(.card-img) .card-art { height: 190px; } }
