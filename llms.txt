@@ -1,6 +1,6 @@
 # 2Wise
 
-> 2Wise is a JAMB UTME preparation app for Nigerian candidates (Android, web). It runs full CBT mock exams scored out of 400, finds each student's weak topics and drills them, explains every answer, and works offline. 30 days free, then ₦1,000 for 12 months.
+> 2Wise is a JAMB UTME preparation app for Nigerian candidates (Android, web). It runs full CBT mock exams scored out of 400, finds each student's weak topics and drills them, explains every answer, and works offline. 7-day free trial, then ₦3,000 a year.
 
 ## Product
 
@@ -10,6 +10,9 @@
 
 ## JAMB guides
 
+- [JAMB syllabus 2027: the topics to study in every major subject](https://2wise.com.ng/blog/jamb-syllabus-2027/): The JAMB syllabus is the official list of everything the UTME can test. Here's what's in the 2027 JAMB syllabus for Use of English, Mathematics, Physics, Chemistry, Biology, Economics, Government and Literature, and how to turn it into a study plan.
+- [JAMB past questions and answers: how to use them to actually score high](https://2wise.com.ng/blog/jamb-past-questions-and-answers/): Does JAMB repeat past questions? Where can you get JAMB past questions for free, and how many should you do a day? Here's the method that turns past questions into a higher UTME score, subject by subject.
+- [JAMB 2027 date: the UTME moves to March 15–25, 2027](https://2wise.com.ng/blog/jamb-2027-date/): The 2027 UTME has been proposed for 15–25 March 2027, about a month earlier than usual. Here's the full 2027 exam timetable, what it means for JAMB registration and the mock, the new rules for 2027, and a 16-week plan to get ready.
 - [How to score 300 in JAMB 2027](https://2wise.com.ng/how-to-score-300/): A realistic plan to reach 300 in the UTME: what 300 actually means per subject, how to find the marks you're losing, and a daily routine that works.
 - [JAMB subject combinations for popular courses](https://2wise.com.ng/jamb-subjects/): The usual UTME subject combinations for Medicine, Nursing, Engineering, Law, Accounting, Computer Science and more, and how to confirm yours before you register.
 - [JAMB 2027: everything you need to know](https://2wise.com.ng/blog/jamb-2027-guide/): What to expect from the 2027 UTME: the exam format, how to get your profile code, typical registration timing and fees (based on 2026), the set novel, and how to start preparing now.

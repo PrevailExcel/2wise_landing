@@ -7,16 +7,10 @@
       "sha256": "1bb75a4e0a1b711cf2552e580e29461e28b566807acbd398182f09f94ff42196"
     },
     "windows": {
-      "file": "2wise-setup.exe",
+      "file": "2wise.exe",
       "version": "1.0.0",
       "size_mb": 2.55,
       "sha256": "30d00701752ee97cb137347608bcc2d1c85a049de4b5dd307210a53ba9413750"
-    },
-    "windows_msi": {
-      "file": "2wise.msi",
-      "version": "1.0.0",
-      "size_mb": 3.2,
-      "sha256": "b724d5ba6cda922c154dddd0503ece3a4841cc3dfbd3547a8eb28b3eeaeb9846"
     },
     "linux_deb": {
       "file": "2wise.deb",
