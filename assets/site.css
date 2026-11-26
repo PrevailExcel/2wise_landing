@@ -163,7 +163,7 @@ input[type=range]:focus-visible { outline: 2px solid var(--gold); outline-offset
 
 /* ── Compare ─────────────────────────────────────────────────────────── */
 .compare { background: var(--white); border-radius: 22px; box-shadow: var(--shadow); overflow: hidden; border: 1px solid #F0ECE2; }
-.compare-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.compare-scroll { position: relative; overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .compare table { width: 100%; border-collapse: collapse; font-size: 15px; }
 .compare th, .compare td { padding: 14px 16px; text-align: center; border-bottom: 1px solid #F1EEE6; }
 .compare th:first-child, .compare td:first-child { text-align: left; }
