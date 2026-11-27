@@ -379,6 +379,8 @@ code { font: 600 13px ui-monospace, Menlo, Consolas, monospace; background: var(
 /* ── Tablet ──────────────────────────────────────────────────────────── */
 @media (max-width: 960px) {
   .hero-grid, .story-grid, .retake-box, .planner, .post-grid { grid-template-columns: 1fr; }
+  .post-grid { grid-template-columns: minmax(0, 1fr); }
+  .prose .tbl table { min-width: 520px; }
   .hero h1 { max-width: 16ch; }
   .phones { height: 500px; max-width: 420px; margin: 8px auto 0; width: 100%; }
   .outcomes, .tiles, .cards, .steps3 { grid-template-columns: 1fr 1fr; }
