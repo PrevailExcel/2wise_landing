@@ -27,7 +27,7 @@ a { color: inherit; }
 .nav.scrolled { border-bottom-color: var(--line); }
 .nav .wrap { display: flex; align-items: center; gap: 16px; height: 62px; }
 .brand { display: inline-flex; align-items: center; gap: 8px; text-decoration: none; font: 800 19px var(--display); color: var(--navy); letter-spacing: -.02em; }
-.brand-mark { width: 32px; height: 32px; border-radius: 9px; background: var(--navy); color: var(--green); display: grid; place-items: center; font: 800 13px var(--display); }
+.brand-mark { width: 32px; height: 32px; border-radius: 9px; display: block; flex-shrink: 0; }
 .brand b { color: var(--green-dark); }
 .nav-links { display: flex; gap: 22px; margin-left: auto; }
 .nav-links a { text-decoration: none; font-weight: 600; font-size: 15px; color: var(--muted); }
