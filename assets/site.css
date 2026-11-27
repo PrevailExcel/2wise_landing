@@ -556,3 +556,6 @@ html[data-launch="on"] .std-only { display: none !important; }
 .calc-out strong { font: 800 2rem var(--display); color: var(--green); }
 .calc-out small { opacity: .85; }
 @media (max-width: 720px) { .calc-grades { grid-template-columns: repeat(2, 1fr); } }
+
+/* Visually hidden, still read by screen readers and crawlers */
+.vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
