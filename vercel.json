@@ -14,6 +14,16 @@
       "source": "/download/2wise-setup.exe",
       "destination": "/download/2wise.exe",
       "permanent": false
+    },
+    {
+      "source": "/blog/study-smarter-not-longer",
+      "destination": "/blog/why-students-who-read-for-six-hours-can-score-lower-than-students-who-study-for-two/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/study-smarter-not-longer/",
+      "destination": "/blog/why-students-who-read-for-six-hours-can-score-lower-than-students-who-study-for-two/",
+      "statusCode": 301
     }
   ],
   "headers": [
